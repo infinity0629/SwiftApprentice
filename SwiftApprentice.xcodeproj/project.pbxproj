@@ -147,15 +147,15 @@
 		7D1A304D2B4FC75C00D433D9 /* Fundamentals */ = {
 			isa = PBXGroup;
 			children = (
-				7D1A304F2B4FC7F300D433D9 /* 1. Expressions, Variables & Constants */,
-				7D3298852B4FD95B00A7AE82 /* 2. Types & Operations */,
-				7D32988B2B4FE4BE00A7AE82 /* 3. Basic Control Flow */,
-				7D32988F2B502B6400A7AE82 /* 4. Advanced Control Flow */,
-				7D3298922B50305200A7AE82 /* 5. Functions */,
-				7D3298962B50334E00A7AE82 /* 6. Optionals */,
-				7D32989C2B50362B00A7AE82 /* 7. Arrays, Dictionaries & Sets */,
-				7D3298A12B50474700A7AE82 /* 8. Collection Iteration With Closures */,
-				7D3298A72B5161E900A7AE82 /* 9. Strings */,
+				7D1A304F2B4FC7F300D433D9 /* 01. Expressions, Variables & Constants */,
+				7D3298852B4FD95B00A7AE82 /* 02. Types & Operations */,
+				7D32988B2B4FE4BE00A7AE82 /* 03. Basic Control Flow */,
+				7D32988F2B502B6400A7AE82 /* 04. Advanced Control Flow */,
+				7D3298922B50305200A7AE82 /* 05. Functions */,
+				7D3298962B50334E00A7AE82 /* 06. Optionals */,
+				7D32989C2B50362B00A7AE82 /* 07. Arrays, Dictionaries & Sets */,
+				7D3298A12B50474700A7AE82 /* 08. Collection Iteration With Closures */,
+				7D3298A72B5161E900A7AE82 /* 09. Strings */,
 				7D3298AE2B51666200A7AE82 /* 10. Regex */,
 				7D3298B52B5193EE00A7AE82 /* 11. Structures */,
 				7D3298BB2B5238D100A7AE82 /* 12. Properties */,
@@ -177,7 +177,7 @@
 			path = "Beyond the Basics";
 			sourceTree = "<group>";
 		};
-		7D1A304F2B4FC7F300D433D9 /* 1. Expressions, Variables & Constants */ = {
+		7D1A304F2B4FC7F300D433D9 /* 01. Expressions, Variables & Constants */ = {
 			isa = PBXGroup;
 			children = (
 				7D1A30542B4FCC9B00D433D9 /* 1.1 Code Comments.playground */,
@@ -187,10 +187,10 @@
 				7D1A30582B4FD4C400D433D9 /* 1.5 Naming data.playground */,
 				7D1A30592B4FD53B00D433D9 /* 1.6 Increment and Decrement.playground */,
 			);
-			path = "1. Expressions, Variables & Constants";
+			path = "01. Expressions, Variables & Constants";
 			sourceTree = "<group>";
 		};
-		7D3298852B4FD95B00A7AE82 /* 2. Types & Operations */ = {
+		7D3298852B4FD95B00A7AE82 /* 02. Types & Operations */ = {
 			isa = PBXGroup;
 			children = (
 				7D3298862B4FD99400A7AE82 /* 2.1 Type Conversion.playground */,
@@ -199,39 +199,39 @@
 				7D3298892B4FE2E900A7AE82 /* 2.4 A Whole Lot of Number Types.playground */,
 				7D32988A2B4FE3B800A7AE82 /* 2.5 Type Aliases.playground */,
 			);
-			path = "2. Types & Operations";
+			path = "02. Types & Operations";
 			sourceTree = "<group>";
 		};
-		7D32988B2B4FE4BE00A7AE82 /* 3. Basic Control Flow */ = {
+		7D32988B2B4FE4BE00A7AE82 /* 03. Basic Control Flow */ = {
 			isa = PBXGroup;
 			children = (
 				7D32988C2B5027D600A7AE82 /* 3.1 Comparison Operators.playground */,
 				7D32988D2B50292700A7AE82 /* 3.2 The if Statement.playground */,
 				7D32988E2B502ACA00A7AE82 /* 3.3 Loops.playground */,
 			);
-			path = "3. Basic Control Flow";
+			path = "03. Basic Control Flow";
 			sourceTree = "<group>";
 		};
-		7D32988F2B502B6400A7AE82 /* 4. Advanced Control Flow */ = {
+		7D32988F2B502B6400A7AE82 /* 04. Advanced Control Flow */ = {
 			isa = PBXGroup;
 			children = (
 				7D3298902B502C4200A7AE82 /* 4.1 Countable Ranges.playground */,
 				7D3298912B502E7F00A7AE82 /* 4.2 Switch Statements.playground */,
 			);
-			path = "4. Advanced Control Flow";
+			path = "04. Advanced Control Flow";
 			sourceTree = "<group>";
 		};
-		7D3298922B50305200A7AE82 /* 5. Functions */ = {
+		7D3298922B50305200A7AE82 /* 05. Functions */ = {
 			isa = PBXGroup;
 			children = (
 				7D3298932B50308B00A7AE82 /* 5.1 Function Basics.playground */,
 				7D3298942B5031ED00A7AE82 /* 5.2 Functions as Variables.playground */,
 				7D3298952B5032A700A7AE82 /* 5.3 Commenting Your Functions.playground */,
 			);
-			path = "5. Functions";
+			path = "05. Functions";
 			sourceTree = "<group>";
 		};
-		7D3298962B50334E00A7AE82 /* 6. Optionals */ = {
+		7D3298962B50334E00A7AE82 /* 06. Optionals */ = {
 			isa = PBXGroup;
 			children = (
 				7D3298982B5033CA00A7AE82 /* 6.1 Introducing Optionals.playground */,
@@ -239,10 +239,10 @@
 				7D32989A2B5034D400A7AE82 /* 6.3 Introducing guard.playground */,
 				7D32989B2B50358900A7AE82 /* 6.4 Nil Coalescing.playground */,
 			);
-			path = "6. Optionals";
+			path = "06. Optionals";
 			sourceTree = "<group>";
 		};
-		7D32989C2B50362B00A7AE82 /* 7. Arrays, Dictionaries & Sets */ = {
+		7D32989C2B50362B00A7AE82 /* 07. Arrays, Dictionaries & Sets */ = {
 			isa = PBXGroup;
 			children = (
 				7D32989D2B50375600A7AE82 /* 7.1 Arrays.playground */,
@@ -250,20 +250,20 @@
 				7D32989F2B503BBA00A7AE82 /* 7.3 Sets.playground */,
 				7D3298A02B503CA100A7AE82 /* 7.4 Arrays, Dictionaries & Sets Tips.playground */,
 			);
-			path = "7. Arrays, Dictionaries & Sets";
+			path = "07. Arrays, Dictionaries & Sets";
 			sourceTree = "<group>";
 		};
-		7D3298A12B50474700A7AE82 /* 8. Collection Iteration With Closures */ = {
+		7D3298A12B50474700A7AE82 /* 08. Collection Iteration With Closures */ = {
 			isa = PBXGroup;
 			children = (
 				7D3298A22B51288100A7AE82 /* 8.1 Closure Basics.playground */,
 				7D3298A52B51348C00A7AE82 /* 8.2 Custom Sorting With Closures.playground */,
 				7D3298A62B51358A00A7AE82 /* 8.3 Iterating Over Collections With Closures.playground */,
 			);
-			path = "8. Collection Iteration With Closures";
+			path = "08. Collection Iteration With Closures";
 			sourceTree = "<group>";
 		};
-		7D3298A72B5161E900A7AE82 /* 9. Strings */ = {
+		7D3298A72B5161E900A7AE82 /* 09. Strings */ = {
 			isa = PBXGroup;
 			children = (
 				7D3298A82B51628600A7AE82 /* 9.1 Strings as Collections.playground */,
@@ -273,7 +273,7 @@
 				7D3298AC2B51653A00A7AE82 /* 9.5 Character Properties.playground */,
 				7D3298AD2B51657500A7AE82 /* 9.6 Encoding.playground */,
 			);
-			path = "9. Strings";
+			path = "09. Strings";
 			sourceTree = "<group>";
 		};
 		7D3298AE2B51666200A7AE82 /* 10. Regex */ = {
