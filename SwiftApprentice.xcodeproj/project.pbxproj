@@ -90,6 +90,8 @@
 		7D3298CF2B5275D600A7AE82 /* 14.5 When to Use a Class Versus a Struct.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "14.5 When to Use a Class Versus a Struct.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7D3298D12B52780C00A7AE82 /* 15.1 Introducing Inheritance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "15.1 Introducing Inheritance.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7D3298D22B5286D400A7AE82 /* 15.2 Inheritance and Class Initialization.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "15.2 Inheritance and Class Initialization.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7D9B23802B52B9B2000D7389 /* 1.2 Organizing Code Into Extensions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1.2 Organizing Code Into Extensions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7D9B23812B52BC59000D7389 /* 1.3 Testing.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1.3 Testing.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DD2F92C2B528B74007B675E /* 15.3 Understanding the Class Lifecycle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "15.3 Understanding the Class Lifecycle.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DD2F92E2B528D34007B675E /* 16.1 Your First Enumeration.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "16.1 Your First Enumeration.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DD2F92F2B528DF9007B675E /* 16.2 Raw Values.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "16.2 Raw Values.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -386,6 +388,8 @@
 			isa = PBXGroup;
 			children = (
 				7DD2F93E2B52A517007B675E /* 1.1 Introducing Access Control.playground */,
+				7D9B23802B52B9B2000D7389 /* 1.2 Organizing Code Into Extensions.playground */,
+				7D9B23812B52BC59000D7389 /* 1.3 Testing.playground */,
 			);
 			path = "01. Access Control, Code Organization & Testing";
 			sourceTree = "<group>";
