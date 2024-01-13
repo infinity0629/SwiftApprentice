@@ -172,7 +172,7 @@
 		7D1A304E2B4FC78900D433D9 /* Beyond the Basics */ = {
 			isa = PBXGroup;
 			children = (
-				7DD2F93D2B52A4CD007B675E /* 1. Access Control, Code Organization & Testing */,
+				7DD2F93D2B52A4CD007B675E /* 01. Access Control, Code Organization & Testing */,
 			);
 			path = "Beyond the Basics";
 			sourceTree = "<group>";
@@ -382,12 +382,12 @@
 			path = "18. Generics";
 			sourceTree = "<group>";
 		};
-		7DD2F93D2B52A4CD007B675E /* 1. Access Control, Code Organization & Testing */ = {
+		7DD2F93D2B52A4CD007B675E /* 01. Access Control, Code Organization & Testing */ = {
 			isa = PBXGroup;
 			children = (
 				7DD2F93E2B52A517007B675E /* 1.1 Introducing Access Control.playground */,
 			);
-			path = "1. Access Control, Code Organization & Testing";
+			path = "01. Access Control, Code Organization & Testing";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
