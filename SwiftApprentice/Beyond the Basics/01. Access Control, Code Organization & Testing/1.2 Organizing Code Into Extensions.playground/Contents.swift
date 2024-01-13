@@ -1,5 +1,11 @@
 import Cocoa
 
+let johnChecking = CheckingAccount()
+johnChecking.deposit(amount: 300.00)
+print(johnChecking)
+
+
+
 class SavingsAccount: BasicAccount {
     var interestRate: Double
     private let pin: Int

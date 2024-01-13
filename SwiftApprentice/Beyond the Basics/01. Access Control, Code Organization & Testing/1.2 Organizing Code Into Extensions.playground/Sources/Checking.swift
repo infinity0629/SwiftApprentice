@@ -41,6 +41,7 @@ public class CheckingAccount: BasicAccount {
     }
 }
 
+// 推荐访问权限放在方法前，方便修改和阅读。（下面的例子除外，就是需要把私有方法全放在一个 extension 里。）
 private extension CheckingAccount {
     func inspectForFraud(with checkNumber: Int) -> Bool {
         issuedChecks.contains(checkNumber)
