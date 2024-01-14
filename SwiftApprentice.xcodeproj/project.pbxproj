@@ -95,6 +95,8 @@
 		7D9B23832B52DEAF000D7389 /* 2.1 Custom Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2.1 Custom Operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DC8D4F02B52E96600D4487F /* 2.2 Subscripts.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2.2 Subscripts.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DC8D4F12B52EB0700D4487F /* 2.3 Keypaths.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2.3 Keypaths.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DC8D4F32B5384FB00D4487F /* 3.1 Meet NSAttributedString.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3.1 Meet NSAttributedString.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DC8D4F42B53873E00D4487F /* 3.2 Creating a Result Builder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3.2 Creating a Result Builder.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DD2F92C2B528B74007B675E /* 15.3 Understanding the Class Lifecycle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "15.3 Understanding the Class Lifecycle.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DD2F92E2B528D34007B675E /* 16.1 Your First Enumeration.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "16.1 Your First Enumeration.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DD2F92F2B528DF9007B675E /* 16.2 Raw Values.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "16.2 Raw Values.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -179,6 +181,7 @@
 			children = (
 				7DD2F93D2B52A4CD007B675E /* 01. Access Control, Code Organization & Testing */,
 				7D9B23822B52DA8C000D7389 /* 02. Custom Operators, Subscripts & Keypaths */,
+				7DC8D4F22B5384DB00D4487F /* 03. Result Builders */,
 			);
 			path = "Beyond the Basics";
 			sourceTree = "<group>";
@@ -362,6 +365,15 @@
 				7DC8D4F12B52EB0700D4487F /* 2.3 Keypaths.playground */,
 			);
 			path = "02. Custom Operators, Subscripts & Keypaths";
+			sourceTree = "<group>";
+		};
+		7DC8D4F22B5384DB00D4487F /* 03. Result Builders */ = {
+			isa = PBXGroup;
+			children = (
+				7DC8D4F32B5384FB00D4487F /* 3.1 Meet NSAttributedString.playground */,
+				7DC8D4F42B53873E00D4487F /* 3.2 Creating a Result Builder.playground */,
+			);
+			path = "03. Result Builders";
 			sourceTree = "<group>";
 		};
 		7DD2F92D2B528CFF007B675E /* 16. Enumerations */ = {
