@@ -97,6 +97,9 @@
 		7DC8D4F12B52EB0700D4487F /* 2.3 Keypaths.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2.3 Keypaths.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DC8D4F32B5384FB00D4487F /* 3.1 Meet NSAttributedString.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3.1 Meet NSAttributedString.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DC8D4F42B53873E00D4487F /* 3.2 Creating a Result Builder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3.2 Creating a Result Builder.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DC8D4F72B53985F00D4487F /* 4.1 Basic Pattern Matching.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4.1 Basic Pattern Matching.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DC8D4F82B539C3400D4487F /* 4.2 Patterns.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4.2 Patterns.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DC8D4F92B539EB600D4487F /* 4.3 Advanced Patterns.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4.3 Advanced Patterns.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DD2F92C2B528B74007B675E /* 15.3 Understanding the Class Lifecycle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "15.3 Understanding the Class Lifecycle.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DD2F92E2B528D34007B675E /* 16.1 Your First Enumeration.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "16.1 Your First Enumeration.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DD2F92F2B528DF9007B675E /* 16.2 Raw Values.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "16.2 Raw Values.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -112,6 +115,16 @@
 		7DD2F93B2B529E01007B675E /* 18.2 Generic Function Parameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "18.2 Generic Function Parameters.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DD2F93C2B529E2E007B675E /* 18.3 Type Constrained Generics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "18.3 Type Constrained Generics.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DD2F93E2B52A517007B675E /* 1.1 Introducing Access Control.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1.1 Introducing Access Control.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757CD2B53BDB1003F1496 /* 4.4 Programming Exercises.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4.4 Programming Exercises.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757CE2B53BE12003F1496 /* 4.5 Expression Pattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4.5 Expression Pattern.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757D02B53C34E003F1496 /* 5.1 First Level Error Handling With Optionals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5.1 First Level Error Handling With Optionals.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757D12B53CC86003F1496 /* 5.2 Error Protocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5.2 Error Protocol.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757D22B53D562003F1496 /* 5.3 Throwing Errors.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5.3 Throwing Errors.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757D32B53D604003F1496 /* 5.4 Handling Errors.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5.4 Handling Errors.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757D42B53DA6A003F1496 /* 5.5 Advanced Error Handling.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5.5 Advanced Error Handling.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757D52B541452003F1496 /* 5.6 rethrows.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5.6 rethrows.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757D62B541770003F1496 /* 5.7 Throwable Properties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5.7 Throwable Properties.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757D72B5417ED003F1496 /* 5.8 Throwable Subscripts.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5.8 Throwable Subscripts.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +195,8 @@
 				7DD2F93D2B52A4CD007B675E /* 01. Access Control, Code Organization & Testing */,
 				7D9B23822B52DA8C000D7389 /* 02. Custom Operators, Subscripts & Keypaths */,
 				7DC8D4F22B5384DB00D4487F /* 03. Result Builders */,
+				7DC8D4F52B53980E00D4487F /* 04. Pattern Matching */,
+				7DF757CF2B53C073003F1496 /* 05. Error Handling */,
 			);
 			path = "Beyond the Basics";
 			sourceTree = "<group>";
@@ -376,6 +391,18 @@
 			path = "03. Result Builders";
 			sourceTree = "<group>";
 		};
+		7DC8D4F52B53980E00D4487F /* 04. Pattern Matching */ = {
+			isa = PBXGroup;
+			children = (
+				7DC8D4F72B53985F00D4487F /* 4.1 Basic Pattern Matching.playground */,
+				7DC8D4F82B539C3400D4487F /* 4.2 Patterns.playground */,
+				7DC8D4F92B539EB600D4487F /* 4.3 Advanced Patterns.playground */,
+				7DF757CD2B53BDB1003F1496 /* 4.4 Programming Exercises.playground */,
+				7DF757CE2B53BE12003F1496 /* 4.5 Expression Pattern.playground */,
+			);
+			path = "04. Pattern Matching";
+			sourceTree = "<group>";
+		};
 		7DD2F92D2B528CFF007B675E /* 16. Enumerations */ = {
 			isa = PBXGroup;
 			children = (
@@ -418,6 +445,21 @@
 				7D9B23812B52BC59000D7389 /* 1.3 Testing.playground */,
 			);
 			path = "01. Access Control, Code Organization & Testing";
+			sourceTree = "<group>";
+		};
+		7DF757CF2B53C073003F1496 /* 05. Error Handling */ = {
+			isa = PBXGroup;
+			children = (
+				7DF757D02B53C34E003F1496 /* 5.1 First Level Error Handling With Optionals.playground */,
+				7DF757D12B53CC86003F1496 /* 5.2 Error Protocol.playground */,
+				7DF757D22B53D562003F1496 /* 5.3 Throwing Errors.playground */,
+				7DF757D32B53D604003F1496 /* 5.4 Handling Errors.playground */,
+				7DF757D42B53DA6A003F1496 /* 5.5 Advanced Error Handling.playground */,
+				7DF757D52B541452003F1496 /* 5.6 rethrows.playground */,
+				7DF757D62B541770003F1496 /* 5.7 Throwable Properties.playground */,
+				7DF757D72B5417ED003F1496 /* 5.8 Throwable Subscripts.playground */,
+			);
+			path = "05. Error Handling";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
