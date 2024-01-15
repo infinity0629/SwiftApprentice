@@ -125,6 +125,10 @@
 		7DF757D52B541452003F1496 /* 5.6 rethrows.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5.6 rethrows.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DF757D62B541770003F1496 /* 5.7 Throwable Properties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5.7 Throwable Properties.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DF757D72B5417ED003F1496 /* 5.8 Throwable Subscripts.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5.8 Throwable Subscripts.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757D92B541910003F1496 /* 6.1 JSONEncoder and JSONDecoder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "6.1 JSONEncoder and JSONDecoder.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757DA2B542457003F1496 /* 6.2 Renaming Properties with CodingKeys.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "6.2 Renaming Properties with CodingKeys.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757DB2B542514003F1496 /* 6.3 Manual Encoding and Decoding.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "6.3 Manual Encoding and Decoding.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757DC2B542DD7003F1496 /* 6.4 Writing Tests for the Encoder and Decoder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "6.4 Writing Tests for the Encoder and Decoder.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +201,7 @@
 				7DC8D4F22B5384DB00D4487F /* 03. Result Builders */,
 				7DC8D4F52B53980E00D4487F /* 04. Pattern Matching */,
 				7DF757CF2B53C073003F1496 /* 05. Error Handling */,
+				7DF757D82B5418CF003F1496 /* 06. Encoding & Decoding Types */,
 			);
 			path = "Beyond the Basics";
 			sourceTree = "<group>";
@@ -460,6 +465,17 @@
 				7DF757D72B5417ED003F1496 /* 5.8 Throwable Subscripts.playground */,
 			);
 			path = "05. Error Handling";
+			sourceTree = "<group>";
+		};
+		7DF757D82B5418CF003F1496 /* 06. Encoding & Decoding Types */ = {
+			isa = PBXGroup;
+			children = (
+				7DF757D92B541910003F1496 /* 6.1 JSONEncoder and JSONDecoder.playground */,
+				7DF757DA2B542457003F1496 /* 6.2 Renaming Properties with CodingKeys.playground */,
+				7DF757DB2B542514003F1496 /* 6.3 Manual Encoding and Decoding.playground */,
+				7DF757DC2B542DD7003F1496 /* 6.4 Writing Tests for the Encoder and Decoder.playground */,
+			);
+			path = "06. Encoding & Decoding Types";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
