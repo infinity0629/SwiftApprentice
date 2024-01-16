@@ -34,40 +34,36 @@ extension Color {
     }
 }
 
+@propertyWrapper
+struct CopyOnWriteColor {
+    private var bucket: Bucket
 
+    init(wrappedValue: Color) {
+        self.bucket = Bucket(color: wrappedValue)
+    }
 
-struct PaintingPlan {
-    var accent = Color.white
-    var bucket = Bucket(color: .blue)
-}
-
-let artPlan = PaintingPlan()
-let housePlan = artPlan
-artPlan.bucket.color
-housePlan.bucket.color = Color.green
-artPlan.bucket.color
-
-
-
-struct PaintingPlanCopyOnWrite {
-    var accent = Color.white
-    private var bucket = Bucket(color: .blue)
-    
-    var bucketColor: Color {
+    var wrappedValue: Color {
         get {
             bucket.color
         }
         set {
             if isKnownUniquelyReferenced(&bucket) {
-                bucket.color = bucketColor
+                bucket.color = newValue
             } else {
-                bucket = Bucket(color: newValue)
+                bucket = Bucket(color:newValue)
             }
         }
-    }        
+    }
 }
 
-let artPlanCOW = PaintingPlanCopyOnWrite()
+struct PaintingPlan {
+    var accent = Color.white
+    @CopyOnWriteColor var bucketColor = .blue
+    @CopyOnWriteColor var bucketColorForDoor = .blue
+    @CopyOnWriteColor var bucketColorForWalls = .blue
+}
+
+let artPlanCOW = PaintingPlan()
 var housePlanCOW = artPlanCOW
 artPlanCOW.bucketColor
 housePlanCOW.bucketColor = .green
