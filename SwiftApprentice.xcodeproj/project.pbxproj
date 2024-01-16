@@ -136,6 +136,15 @@
 		7DF757E42B563441003F1496 /* 9.1 Basic Example.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "9.1 Basic Example.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DF757E52B563647003F1496 /* 9.2 Implementing Copy-on-Write.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "9.2 Implementing Copy-on-Write.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DF757E62B564C50003F1496 /* 9.3 Projected Values are Handles.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "9.3 Projected Values are Handles.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757E82B565195003F1496 /* 10.1 Introducing Protocol Extensions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "10.1 Introducing Protocol Extensions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757E92B565223003F1496 /* 10.2 Default Implementations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "10.2 Default Implementations.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757EA2B5653B8003F1496 /* 10.3 Understanding Protocol Extension Dispatch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "10.3 Understanding Protocol Extension Dispatch.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757EB2B5654B4003F1496 /* 10.4 Type Constraints.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "10.4 Type Constraints.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757ED2B565756003F1496 /* 11.1 Existential Protocols.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "11.1 Existential Protocols.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757EE2B56583F003F1496 /* 11.2 Protocols with Associated Types.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "11.2 Protocols with Associated Types.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757EF2B565CBF003F1496 /* 11.3 Primary Associated Types.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "11.3 Primary Associated Types.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757F02B565E0C003F1496 /* 11.4 Type Erasure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "11.4 Type Erasure.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757F12B565FF7003F1496 /* 11.5 Opaque Types.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "11.5 Opaque Types.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +221,8 @@
 				7DF757DD2B55177D003F1496 /* 07. Memory Management */,
 				7DF757E02B55FFE8003F1496 /* 08. Value Types & Reference Types */,
 				7DF757E32B5603D6003F1496 /* 09. Property Wrappers */,
+				7DF757E72B565150003F1496 /* 10. Protocol-Oriented Programming */,
+				7DF757EC2B56572B003F1496 /* 11. Advanced Protocols & Generics */,
 			);
 			path = "Beyond the Basics";
 			sourceTree = "<group>";
@@ -514,6 +525,29 @@
 				7DF757E62B564C50003F1496 /* 9.3 Projected Values are Handles.playground */,
 			);
 			path = "09. Property Wrappers";
+			sourceTree = "<group>";
+		};
+		7DF757E72B565150003F1496 /* 10. Protocol-Oriented Programming */ = {
+			isa = PBXGroup;
+			children = (
+				7DF757E82B565195003F1496 /* 10.1 Introducing Protocol Extensions.playground */,
+				7DF757E92B565223003F1496 /* 10.2 Default Implementations.playground */,
+				7DF757EA2B5653B8003F1496 /* 10.3 Understanding Protocol Extension Dispatch.playground */,
+				7DF757EB2B5654B4003F1496 /* 10.4 Type Constraints.playground */,
+			);
+			path = "10. Protocol-Oriented Programming";
+			sourceTree = "<group>";
+		};
+		7DF757EC2B56572B003F1496 /* 11. Advanced Protocols & Generics */ = {
+			isa = PBXGroup;
+			children = (
+				7DF757ED2B565756003F1496 /* 11.1 Existential Protocols.playground */,
+				7DF757EE2B56583F003F1496 /* 11.2 Protocols with Associated Types.playground */,
+				7DF757EF2B565CBF003F1496 /* 11.3 Primary Associated Types.playground */,
+				7DF757F02B565E0C003F1496 /* 11.4 Type Erasure.playground */,
+				7DF757F12B565FF7003F1496 /* 11.5 Opaque Types.playground */,
+			);
+			path = "11. Advanced Protocols & Generics";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
