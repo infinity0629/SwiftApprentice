@@ -106,7 +106,7 @@ let team = [janie, tammy, felipe]
 
 let petNames = team.map { $0.pet?.name }
 for pet in petNames {
-    print(pet)
+    print(pet as Any)
 }
 
 let betterPetNames = team.compactMap { $0.pet?.name }

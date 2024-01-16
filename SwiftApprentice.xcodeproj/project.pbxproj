@@ -145,6 +145,13 @@
 		7DF757EF2B565CBF003F1496 /* 11.3 Primary Associated Types.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "11.3 Primary Associated Types.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DF757F02B565E0C003F1496 /* 11.4 Type Erasure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "11.4 Type Erasure.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DF757F12B565FF7003F1496 /* 11.5 Opaque Types.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "11.5 Opaque Types.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757F32B56674F003F1496 /* 12.1 Basic Tasks.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "12.1 Basic Tasks.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757F42B566958003F1496 /* 12.2 Async:Await in Action.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "12.2 Async:Await in Action.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757F52B5669B6003F1496 /* 12.3 Asynchronous Sequences.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "12.3 Asynchronous Sequences.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757F62B5669F1003F1496 /* 12.4 Ordering Your Concurrency.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "12.4 Ordering Your Concurrency.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757F72B566A3B003F1496 /* 12.5 Asynchronous Properties and Subscripts.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "12.5 Asynchronous Properties and Subscripts.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757F82B566AB7003F1496 /* 12.6 Introducing Actors.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "12.6 Introducing Actors.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DF757F92B566C28003F1496 /* 12.7 Sendable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "12.7 Sendable.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +230,7 @@
 				7DF757E32B5603D6003F1496 /* 09. Property Wrappers */,
 				7DF757E72B565150003F1496 /* 10. Protocol-Oriented Programming */,
 				7DF757EC2B56572B003F1496 /* 11. Advanced Protocols & Generics */,
+				7DF757F22B5666E8003F1496 /* 12. Concurrency */,
 			);
 			path = "Beyond the Basics";
 			sourceTree = "<group>";
@@ -548,6 +556,20 @@
 				7DF757F12B565FF7003F1496 /* 11.5 Opaque Types.playground */,
 			);
 			path = "11. Advanced Protocols & Generics";
+			sourceTree = "<group>";
+		};
+		7DF757F22B5666E8003F1496 /* 12. Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				7DF757F32B56674F003F1496 /* 12.1 Basic Tasks.playground */,
+				7DF757F42B566958003F1496 /* 12.2 Async:Await in Action.playground */,
+				7DF757F52B5669B6003F1496 /* 12.3 Asynchronous Sequences.playground */,
+				7DF757F62B5669F1003F1496 /* 12.4 Ordering Your Concurrency.playground */,
+				7DF757F72B566A3B003F1496 /* 12.5 Asynchronous Properties and Subscripts.playground */,
+				7DF757F82B566AB7003F1496 /* 12.6 Introducing Actors.playground */,
+				7DF757F92B566C28003F1496 /* 12.7 Sendable.playground */,
+			);
+			path = "12. Concurrency";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
