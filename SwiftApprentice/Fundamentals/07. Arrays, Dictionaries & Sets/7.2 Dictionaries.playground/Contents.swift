@@ -38,7 +38,7 @@ bobData["profession"] = "Mailman"
 
 
 
-// 注意：如果你使用的是带有可选类型值的字典， dictionary[key] = nil  仍然会完全删除键，如果你想保留键并将其值设置为  nil, ，你必须使用  updateValue  方法。
+// 注意：如果你使用的是带有可选类型值的字典， dictionary[key] = nil  仍然会完全删除键，如果你想保留键并将其值设置为  nil，你必须使用  updateValue  方法。
 bobData.removeValue(forKey: "state")
 bobData["city"] = nil
 
